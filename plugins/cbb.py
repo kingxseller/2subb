@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Creator : <a href='<b>\n○  ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/POCKET_PFM'>мɪкєʏ</a>\n○  ʟᴀɴɢᴜᴀɢᴇ : <code></code>\n○  Main Channel : <a href=https://t.me/POCKET_PFM>POCKET_PFM</a>\n○  For Issues<a href=https://t.me/PFM_SUPPORT_BOT>PFM_SUPPORT_BOT</a>\n</b>",
+            text = f"<b>○ Creator : <a href='<b>\n○ Creator  : <a href='https://t.me/POCKET_PFM'>ʟᴜғғʏ</a>\n○  ʟᴀɴɢᴜᴀɢᴇ : <code></code>\n○  Main Channel : <a href=https://t.me/POCKET_PFM>POCKET_PFM</a>\n○  For Issues:<a href=https://t.me/PFM_SUPPORT_BOT>PFM_SUPPORT_BOT</a>\n</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
